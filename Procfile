@@ -1,1 +1,1 @@
-web: gunicorn phoneinfo.wsgi
+web: gunicorn PhoneInfo.wsgi
