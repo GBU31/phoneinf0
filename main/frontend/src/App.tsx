@@ -19,7 +19,7 @@ function App() {
     
     
     };
-    fetch('http://127.0.0.1:8000/', options )
+    fetch('/', options )
       .then(response => response.text())
       .then(response => setInfo(response))
   
