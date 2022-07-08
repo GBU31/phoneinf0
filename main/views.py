@@ -6,8 +6,7 @@ import phonenumbers
 from phonenumbers import geocoder, carrier, timezone
 
 @api_view(['GET', 'POST'])
-
-def index(request):
+def home(request):
     if request.method == 'POST':
         for i in request.POST:
             pn = json.loads(i)['val']
