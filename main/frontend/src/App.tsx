@@ -1,7 +1,5 @@
 import './App.css';
 import { useState } from 'react';
-import Phoneinfo from './phoneinfo';
-import { stringify } from 'querystring';
 
 function App() {
   const [val, setVal] = useState("");
