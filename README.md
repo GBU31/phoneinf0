@@ -1,2 +1,2 @@
 # phoneinf0
-https://phoneinf0.herokuapp.com/
+https://phonenumberinfo.herokuapp.com/
